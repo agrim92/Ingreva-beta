@@ -14,10 +14,10 @@ class Preference(Base):
     __tablename__ = "preferences"
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), unique=True)
-    goal = Column(String)  # fat_loss, muscle_gain, general_health
-    sugar_sensitivity = Column(Float)  # 0-1
-    additive_avoidance = Column(Float)  # 0-1
-    protein_priority = Column(Float)  # 0-1
+    goal = Column(String)
+    sugar_sensitivity = Column(Float)
+    additive_avoidance = Column(Float)
+    protein_priority = Column(Float)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
 class Product(Base):
@@ -30,7 +30,7 @@ class Product(Base):
     carbs = Column(Float, nullable=True)
     fat = Column(Float, nullable=True)
     sugar = Column(Float, nullable=True)
-    ai_analysis = Column(Text, nullable=True)  # JSON string
+    ai_analysis = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
 class ConsumptionLog(Base):
