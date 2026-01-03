@@ -22,6 +22,40 @@ Adapts recommendations over time as user habits change
 
 Ingreva is designed to reduce confusion, avoid fear-mongering, and encourage balance instead of restriction.
 
+🔮 Upcoming Features & Roadmap
+
+Ingreva is designed to evolve beyond manual input and become a more seamless, intelligent nutrition co-pilot. Planned enhancements include:
+
+📸 Food Image Scanning
+
+Scan real food packages or meals using the device camera
+
+Automatically extract ingredient lists and nutrition information using vision models
+
+Reduce manual input and make on-the-go decisions faster and more intuitive
+
+🧠 Advanced Ingredient Reasoning
+
+Deeper AI interpretation of ingredients using richer scientific and regulatory context
+
+Improved confidence modeling and explanation quality as data sources expand
+
+🔗 Integration with Thesys
+
+Leverage Thesys for structured food and nutrition data ingestion
+
+Improve product coverage, consistency, and metadata accuracy
+
+Enable richer analytics and cross-product comparisons
+
+📈 Smarter Long-Term Insights
+
+Trend detection across weeks and months
+
+Goal-aware nudges and suggestions based on recurring patterns
+
+More personalized adjustments as user behavior history grows
+
 🧠 Core Idea
 
 The same food can be good for one person, bad for another, and change value throughout the day.
