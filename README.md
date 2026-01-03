@@ -22,6 +22,32 @@ Adapts recommendations over time as user habits change
 
 Ingreva is designed to reduce confusion, avoid fear-mongering, and encourage balance instead of restriction.
 
+🧪 Note on Current Live Demo & AI Integration
+
+At the moment, the live demo of Ingreva is hosted as a Claude Artifact, using Anthropic’s Claude model to demonstrate the intended AI behavior of the application.
+
+This setup is purely for demonstration purposes, to showcase:
+
+How ingredient analysis works
+
+How personalized, context-aware scoring behaves
+
+How AI explanations are generated in real time
+
+The Claude Artifact allows us to rapidly prototype and visually demonstrate the core AI logic without deploying a full production backend.
+
+🚧 Production Plan
+
+For a production-ready version of Ingreva:
+
+The Anthropic API will be integrated directly into a backend-heavy architecture
+
+AI reasoning will run server-side via FastAPI
+
+The frontend will communicate with the backend through secure APIs
+
+This will enable scalability, persistence, authentication, and real user data handling
+
 🔮 Upcoming Features & Roadmap
 
 Ingreva is designed to evolve beyond manual input and become a more seamless, intelligent nutrition co-pilot. Planned enhancements include:
